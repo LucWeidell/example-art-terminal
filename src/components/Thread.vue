@@ -1,7 +1,6 @@
 <template>
   <div class="thread">
-    <Project v-for="project in projects" :key="project.id" :project="project">
-    </project>
+    <ProjectCard v-for="project in projects" :key="project.id" :project="project" />
   </div>
 </template>
 
@@ -12,12 +11,7 @@ export default {
       type: Array,
       required: true
     }
-  },
-  name: 'Thread',
-  setup() {
-    return {}
-  },
-  components: {}
+  }
 }
 </script>
 

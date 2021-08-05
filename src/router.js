@@ -23,6 +23,11 @@ const routes = [
     component: loadPage('AccountPage'),
     beforeEnter: authGuard
   }
+  {
+    path: '/profiles/:id',
+    name: 'Profile',
+    component: loadPage('ProfilePage'),
+  }
 ]
 
 export const router = createRouter({
