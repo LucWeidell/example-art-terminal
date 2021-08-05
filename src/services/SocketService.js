@@ -1,3 +1,5 @@
+// NOTE delete is you want the error gone
+
 import { logger } from '../utils/Logger'
 import { SocketHandler } from '../utils/SocketHandler'
 import Pop from '../utils/Notifier'
